@@ -1,0 +1,93 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.1">
+  <diagram name="第 1 页" id="PMdsF2K_78HYrS076HEf">
+    <mxGraphModel dx="1218" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IWX_ThaLtRy0LgzO9ZOj-3" edge="1" parent="1" source="IWX_ThaLtRy0LgzO9ZOj-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IWX_ThaLtRy0LgzO9ZOj-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IWX_ThaLtRy0LgzO9ZOj-1" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" value="开始" vertex="1">
+          <mxGeometry height="30" width="80" x="110" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IWX_ThaLtRy0LgzO9ZOj-5" edge="1" parent="1" source="IWX_ThaLtRy0LgzO9ZOj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IWX_ThaLtRy0LgzO9ZOj-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IWX_ThaLtRy0LgzO9ZOj-2" parent="1" style="whiteSpace=wrap;html=1;dashed=0;" value="创建质检方案" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="IWX_ThaLtRy0LgzO9ZOj-7" edge="1" parent="1" source="IWX_ThaLtRy0LgzO9ZOj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IWX_ThaLtRy0LgzO9ZOj-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IWX_ThaLtRy0LgzO9ZOj-4" parent="1" style="whiteSpace=wrap;html=1;dashed=0;" value="得到方案里面的维度id:0-4" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="IWX_ThaLtRy0LgzO9ZOj-9" edge="1" parent="1" source="IWX_ThaLtRy0LgzO9ZOj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IWX_ThaLtRy0LgzO9ZOj-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IWX_ThaLtRy0LgzO9ZOj-10" connectable="0" parent="IWX_ThaLtRy0LgzO9ZOj-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="0.0889" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IWX_ThaLtRy0LgzO9ZOj-16" edge="1" parent="1" source="IWX_ThaLtRy0LgzO9ZOj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IWX_ThaLtRy0LgzO9ZOj-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IWX_ThaLtRy0LgzO9ZOj-26" connectable="0" parent="IWX_ThaLtRy0LgzO9ZOj-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.0752" y="4" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IWX_ThaLtRy0LgzO9ZOj-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;dashed=0;" value="维度数量是否与本地方案维度数量一致" vertex="1">
+          <mxGeometry height="155" width="140" x="80" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="IWX_ThaLtRy0LgzO9ZOj-24" edge="1" parent="1" source="IWX_ThaLtRy0LgzO9ZOj-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IWX_ThaLtRy0LgzO9ZOj-23" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IWX_ThaLtRy0LgzO9ZOj-8" parent="1" style="whiteSpace=wrap;html=1;dashed=0;" value="更新维度名称和分数，更新成功后维度id写入方案维度关联表的xiaomi_dimension_id" vertex="1">
+          <mxGeometry height="110" width="140" x="80" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="IWX_ThaLtRy0LgzO9ZOj-13" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" value="结束" vertex="1">
+          <mxGeometry height="30" width="80" x="374" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="IWX_ThaLtRy0LgzO9ZOj-18" edge="1" parent="1" source="IWX_ThaLtRy0LgzO9ZOj-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="IWX_ThaLtRy0LgzO9ZOj-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IWX_ThaLtRy0LgzO9ZOj-29" connectable="0" parent="IWX_ThaLtRy0LgzO9ZOj-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.2061" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IWX_ThaLtRy0LgzO9ZOj-22" edge="1" parent="1" source="IWX_ThaLtRy0LgzO9ZOj-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IWX_ThaLtRy0LgzO9ZOj-21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IWX_ThaLtRy0LgzO9ZOj-27" connectable="0" parent="IWX_ThaLtRy0LgzO9ZOj-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.2936" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IWX_ThaLtRy0LgzO9ZOj-15" parent="1" style="rhombus;whiteSpace=wrap;html=1;dashed=0;" value="平台维度数量比本地方案维度少" vertex="1">
+          <mxGeometry height="97.5" width="190" x="330" y="443.75" as="geometry" />
+        </mxCell>
+        <mxCell id="IWX_ThaLtRy0LgzO9ZOj-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=0;" value="删除晓蜜平台多余的维度" vertex="1">
+          <mxGeometry height="60" width="120" x="680" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="IWX_ThaLtRy0LgzO9ZOj-20" edge="1" parent="1" source="IWX_ThaLtRy0LgzO9ZOj-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.007;entryY=0.655;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="IWX_ThaLtRy0LgzO9ZOj-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IWX_ThaLtRy0LgzO9ZOj-30" edge="1" parent="1" source="IWX_ThaLtRy0LgzO9ZOj-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IWX_ThaLtRy0LgzO9ZOj-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IWX_ThaLtRy0LgzO9ZOj-21" parent="1" style="whiteSpace=wrap;html=1;dashed=0;" value="新增晓蜜平台维度，新增成功后维度id写入方案维度关联表的xiaomi_dimension_id" vertex="1">
+          <mxGeometry height="105" width="125" x="362.5" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="IWX_ThaLtRy0LgzO9ZOj-23" parent="1" style="whiteSpace=wrap;html=1;dashed=0;" value="更新质检方案中的规则" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="855" as="geometry" />
+        </mxCell>
+        <mxCell id="IWX_ThaLtRy0LgzO9ZOj-25" edge="1" parent="1" source="IWX_ThaLtRy0LgzO9ZOj-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="IWX_ThaLtRy0LgzO9ZOj-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
